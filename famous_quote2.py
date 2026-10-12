@@ -1,0 +1,3 @@
+famous_name="rap monster"
+message="I've had to accept that - that everyone cannot love me.\nBecause when there's love, there's hate. When there's light, there's dark.\n But it was really hard to accept as an artist  that there's a lot of people that hate me, but on the other\nside, there are many more people who love me. I think everyone goes through that.\""
+print(f"{famous_name.title()} one said, {message}")
