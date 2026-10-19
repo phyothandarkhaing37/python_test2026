@@ -1,0 +1,26 @@
+guests = ['HPS', 'HMNW', 'YSTK', 'TTH', 'EMM', 'NAK']
+
+print("\nUnfortunately, the new table won't arrive in time, so I can invite only two people.")
+
+# Uninvite guests until only two remain
+popped_guest = guests.pop()
+print(f"Sorry {popped_guest}, I can't invite you to dinner.")
+
+popped_guest = guests.pop()
+print(f"Sorry {popped_guest}, I can't invite you to dinner.")
+
+popped_guest = guests.pop()
+print(f"Sorry {popped_guest}, I can't invite you to dinner.")
+
+popped_guest = guests.pop()
+print(f"Sorry {popped_guest}, I can't invite you to dinner.")
+
+# Confirm remaining guests
+print(f"\n{guests[0]}, you're still invited to dinner!")
+print(f"{guests[1]}, you're still invited to dinner!")
+
+# Empty the list
+del guests[0]
+del guests[0]
+
+print("\nFinal guest list:", guests)
