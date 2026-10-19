@@ -1,0 +1,2 @@
+author_name="rap monster" # RM is a Musician who is the leaderr of BTS,Korea Kpop group
+print( f"{author_name.title()} one said, \"I've had to accept that - that everyone cannot love me.\nBecause when there's love, there's hate. When there's light, there's dark.\n But it was really hard to accept as an artist  that there's a lot of people that hate me, but on the other\nside, there are many more people who love me. I think everyone goes through that.\"")
